@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!-- links css file to html -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Playfair Display Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <!-- Dancing Script -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Style+Script&display=swap" rel="stylesheet">
+
+    <style>
+
+        * {
+            margin: 0 auto;
+            padding: 0;
+        }
+        .bottomBar {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding-left: 30%;
+        }
+    </style>
+
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        
+        .column {
+        float: left;
+        width: 25%;
+        padding: 5px;
+        position: relative;
+        text-align: center;
+        color: white;
+        }
+
+        .column img {
+            z-index: 1;
+        }
+
+        .column img:hover {
+            opacity: 0.1;
+        }
+
+        .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        z-index: -1;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+        </style>
+
+    <style>
+        
+    </style>
+
+</head>
+<body style="background-color: #fff6e3;">
+
+    <!-- Title Bar -->
+    <div class="titleBar">
+        <ul class="fontPlayfair">
+            <div style="float: left; height: 100%; padding-top: 15px; padding-left: 15px;">
+                <img src="./M Logo.png"M Logo" width="40px" height="40px">
+            </div> 
+            <span>
+                <li style="float:left"><a>MARIAH BOOHER</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+                <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./index.html">HOME</a></li>
+            </span>
+        </ul>
+    </div>
+
+    <!-- landing page two columns -->
+    <div class="fontPlayfair" style="display: grid; grid-template-columns: auto auto; margin-top: 25px; margin-bottom: 50px;">
+       <div style="width: 80%; margin: 0 auto; padding-top: 50px;">
+        <p style="font-size: 30px;">“Making one person smile can change the world – maybe not the whole world, but their world.” – John Spence</p>
+        <br>
+        <p style="font-size: 20px;">As a bubbly, enthusiastic, and outgoing individual, I always try to make others feel like they matter. This may be through my everyday interactions with my peers or my leadership positions at OSU such as VP of Events for the American Marketing or Bible Study Leader for Cru. Whatever it may be, it is extremely important to me to prioritize the people in my life, both in my personal and professional life. </p>
+        <br>
+        <p style="font-size: 20px;">Along with this, I just love having fun and trying new things! I have so many interests and hobbies that keep me very busy in my free time, which makes every day a unique adventure! </p>
+    </div>
+       <div style="width: 70%;  margin: 0 auto;">
+        <img src="./Portfolio Pictures/Grass photo.jpg" alt="Picture of me against grass" width="100%">
+       </div>
+    </div>
+
+<!-- Colored div separation -->
+    <div class="fontDancing" style="background-color: #fad0c8; text-align: center; font-size: 55px; margin-bottom: 10px;">
+        <p>Can't have work without the play!</p>
+    </div>
+
+<!-- First row of pictures with scroll over -->
+    <div class="row" style="font-size: 20px;">
+        <div class="column">
+            <img src="./Portfolio Pictures/Travel.jpg" alt="Travel picture" style="width:100%">
+            <div class="centered">
+                <b>Travel</b>
+                <p><br>I love visiting new places! During May of my sophomore year, I studied abroad in Paris, France for two weeks, and it was such a beautiful time to experience a new culture through food, architecture, history, people, and stories.</p>
+             </div>
+        </div>
+        <div class="column">
+            <img src="./Portfolio Pictures/Art.jpg" alt="Art picture" style="width:100%">
+            <div class="centered">
+                <b>Art</b>
+                <p><br>I am passionate about being creative and artsy! In high school, I participated in photography, drawing, painting, and ceramics competitions, which led to me minoring in studio art in college. I'm also a student brand ambassador for Pentel, a stationary company.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="centered">
+                <b>Fitness</b>
+                <p><br>I’ve always been an active person! In high school, I was involved in volleyball, basketball, cheerleading, and track, and in college, I played in a football intramural along with fitness classes at the gym. I love trying any new activity that involves exercise!</p>
+            </div>
+            <img src="./Portfolio Pictures/Fitness.jpg" alt="Fitness picture" style="width:100%">
+        </div>
+        <div class="column">
+            <div class="centered">
+                <b>Dessert</b>
+                <p><br>A sweet treat is the way to my heart! My favorite sweets are cookie dough (I love cookies too), miracle whip chocolate cake (I know it sounds weird, but trust me, it’s sooo good), and black raspberry chocolate chip ice cream from Graters (yes, it has to be Graters)!</p>
+            </div>
+            <img src="./Portfolio Pictures/Dessert.jpg" alt="Dessert picture" style="width:100%">  
+        </div>
+    </div>
+
+<!-- Second row of pictures with scroll over -->
+    <div class="row" style="font-size: 20px;">
+        <div class="column">
+            <div class="centered">
+                <b>Family</b>
+                <p><br>My family is a top priority. They are my biggest supporters, and I know I can always count on them if I ever need anything. You could even say my family members are my best friends because we experience so much joy, laughter, and love together :)</p>
+            </div>
+            <img src="./Portfolio Pictures/Family3.jpg" alt="Family picture" style="width:100%">
+        </div>
+        <div class="column">
+            <div class="centered">
+                <b>Friends</b>
+                <p><br>My friends are a bundle of fun that always wear smiles and sing nonstop! It has been such a blessing to live in a house with these girls and experience all of the ups and downs of life together! </p></div>
+            <img src="./Portfolio Pictures/Friends.jpg" alt="Friends picture" style="width:100%">
+        </div>
+        <div class="column">
+            <div class="centered">
+                <b>Faith</b>
+                <p><br>My personal relationship with God guides every aspect of my life. Who I am as a person and my purpose in life is built on who God is and who He says I am. I am so blessed to know Him so well, and I love being able to share my faith story with whoever I meet! </p></div>
+            <img src="./Portfolio Pictures/Faith.jpg" alt="Faith picture" style="width:100%">
+        </div>
+        <div class="column">
+            <div class="centered">
+                <b>Community</b>
+                <p><br>No matter where I’m at, my community is always supporting me. Throughout college, the OSU and Columbus community has been such a gift, and I strive to continually give back in any way I can.  </p></div>
+            <img src="./Portfolio Pictures/Community.jpg" alt="Community picture" style="width:100%">
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="bottomBar">
+        <ul class="fontDancing">
+            <div style="float: left; height: 100%; padding-top: 15px;"></div> 
+            <span style="float: left; padding-top: 5px; padding-right: 50px; font-size: 60px; color: white;">Let's Connect!</span>
+            <a target="_blank" style="padding-top: 25px;" href="https://www.linkedin.com/in/mariah-booher/"> <img src="./LinkedIn.png" alt="LinkedIn" width="30px"> </a>
+            <a target="_blank" style="padding-top: 25px;" href="https://www.instagram.com/m_booher2003/"> <img src="./Instagram.png" alt="Instagram" width="30px"> </a>
+            <a target="_blank" style="padding-top: 25px;" href="https://www.tiktok.com/@mlbooher2003?lang=en"> <img src="./Tiktok.png" alt="TikTok" width="30px"> </a>
+            <a target="_blank" style="padding-top: 25px;" href="https://www.facebook.com/profile.php?id=100081722766499"> <img src="./Facebook.png" alt="Facebook" width="30px"> </a>
+        </ul>
+    </div>
+
+</body>
+</html>
